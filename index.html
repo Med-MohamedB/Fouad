@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fouad Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="particle-container"></div>
+    
+
+<nav id="navbar">
+    <div class="logo"><img src="fouad.png" alt="Logo Image"/></div>
+    <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="nav-links">
+        <button data-section="home">
+            <i class="fas fa-home"></i> Home
+        </button>
+        <button data-section="projects">
+            <i class="fas fa-code"></i> Projects
+        </button>
+        <button data-section="skills">
+            <i class="fas fa-laptop-code"></i> Skills
+        </button>
+        <button data-section="design">
+            <i class="fas fa-palette"></i> Design
+        </button>
+    </div>
+</nav>
+
+<div class="menu-backdrop"></div>
+
+    <div class="content-wrapper">
+        <main id="content">
+            <section id="home" class="active-section">
+                <div class="home-content">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight typing-text" id="name">Fouad</span>
+                    </h1>
+                    <p class="hero-description">
+                        A Student at <span class="highlight">ESI</span> University 
+                        <span class="typing-container"></span>
+                    </p>
+                </div>
+            </section>
+
+            <section id="projects" class="hidden-section">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Project Alpha</h3>
+                        <p>Bla Bla Bla BLa Bla BLa BLa</p>
+                        <div class="tech-tags">
+                            <span>React</span>
+                            <span>Tailwind</span>
+                            <span>Framer Motion</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project Beta</h3>
+                        <p>Bla Bla Bla BLa Bla BLa BLa</p>
+                        <div class="tech-tags">
+                            <span>Next.js</span>
+                            <span>TypeScript</span>
+                            <span>Animations</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project Gamma</h3>
+                        <p>Bla Bla Bla BLa Bla BLa BLa</p>
+                        <div class="tech-tags">
+                            <span>D3.js</span>
+                            <span>Redux</span>
+                            <span>GraphQL</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project Delta</h3>
+                        <p>Bla Bla Bla BLa Bla BLa BLa</p>
+                        <div class="tech-tags">
+                            <span>TensorFlow</span>
+                            <span>Python</span>
+                            <span>Flask</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fas fa-envelope"></i></a>
+                <a href="#" class="social-icon"><i class="fas fa-mobile-alt"></i></a>
+            </div>
+            <p>© 2024 <span style="color: #4fd1c5; font-weight: bold;">Fouad Portfolio</span> . All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
